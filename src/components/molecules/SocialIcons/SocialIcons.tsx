@@ -8,7 +8,7 @@ const SocialIcons: FC = () => {
 		<StyledSocialIcons>
 			<li>
 				<a
-					href="https://github.com/syofyanzuhad"
+					href="https://github.com/RidwanMuhammad19"
 					target="_blank"
 					rel="noopener noreferrer"
 					title="Github"
@@ -18,7 +18,7 @@ const SocialIcons: FC = () => {
 			</li>
 			<li>
 				<a
-					href="https://twitter.com/syofyan_zuhad"
+					href="https://twitter.com/ridwanm343"
 					target="_blank"
 					rel="noopener noreferrer"
 					title="Twitter"

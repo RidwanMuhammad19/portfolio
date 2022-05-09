@@ -20,19 +20,19 @@ function Home({ skills }: IProps) {
 	return (
 		<>
 			<SeoHead
-				title="Syofyan Zuhad - Back-End Developer"
-				description="Back-End Developer with a focus on php and Laravel. I have more than 2 years experience working in web development."
+				title="Muhammad Ridwan - Front-End Developer"
+				description="Front-End Developer with a focus on React Js. I have more than 2 years experience working in web development."
 			/>
 
 			<Container>
 				<Headline>
 					Hey, I&apos;m
-					<wbr /> Syofyan Zuhad <span>👋</span>
+					<wbr /> Muhammad Ridwan <span>👋</span>
 				</Headline>
 				<p>
-					I am a passionate Web Developer, specialised in back-end development
-					using Laravel and php. As an artisan user (Laravel magic), I create
-					amazing web applications to make the internet a better place.
+					I am a passionate Web Developer, specialised in front-end development.
+					As an artisan user React Js, I create amazing web applications
+					to make the internet a better place.
 					<br />
 					You can talk to me about{' '}
 					<Typed
@@ -51,7 +51,7 @@ function Home({ skills }: IProps) {
 				<p>
 					P.S. this website is open-source and available on{' '}
 					<a
-						href="https://github.com/syofyanzuhad/portfolio"
+						href="https://github.com/RidwanMuhammad19/portfolio"
 						title="Link to Github repository"
 						target="_blank"
 						rel="noopener noreferrer"

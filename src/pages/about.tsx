@@ -27,24 +27,24 @@ function About({ jobs, education }: IProps) {
 	return (
 		<>
 			<SeoHead
-				title="About Syofyan Zuhad - Backend-End Developer"
-				description="As a passionate back-end developer, I create amazing websites and web apps to make the internet a better place."
+				title="About Muhammad Ridwan - Front-end Developer"
+				description="As a passionate front-end developer, I create amazing websites and web apps to make the internet a better place."
 			/>
 
 			<Container>
-				<Headline>Hey, I&apos;m Syofyan Zuhad</Headline>
+				<Headline>Hey, I&apos;m Muhammad Ridwan</Headline>
 				<h3>An intermediate web developer from Indonesia</h3>
 				<p>
 					As a passionate back-end developer, I create amazing websites and web
 					apps to make the internet a better place. I am an open-sourece
-					enthusiast with a magic (artisan) touch inside like{' '}
-					<a href="https://laravel.com">Laravel</a>.
+					enthusiast with a magic (artisan) touch inside like
+					<a href="https://reactjs.org/">React Js</a>.
 				</p>
 				<p>
-					I am {differenceInCalendarYears(new Date(), new Date('1999-01-22'))}{' '}
+					I am {differenceInCalendarYears(new Date(), new Date('1998-11-15'))}
 					years old and have been a web developer for as long as I can think.
-					The technologies I work with are JavaScript, HTML, CSS and php with a
-					focus on the frameworks Laravel, Nuxt.js, Tailwind. I use code not
+					The technologies I work with are JavaScript, HTML, CSS and React with a
+					focus on the frameworks. I use code not
 					only to do my day-to-day job, but also to solve everyday problems I
 					come across.
 				</p>

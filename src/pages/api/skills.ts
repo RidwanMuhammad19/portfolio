@@ -2,14 +2,14 @@ import type { NextApiRequest, NextApiResponse } from 'next';
 
 export default (req: NextApiRequest, res: NextApiResponse) => {
 	const technologies = [
-		'JavaScript',
-		'jQuery',
-		'SQL',
-		'php',
-		'git',
-		'RESTful APIs',
 		'HTML',
-		'CSS',
+		'CSS Bootstrap',
+		'CSS Chakra UI',
+		'CSS Material UI',
+		'javascript',
+		'React Js',
+		'Next Js',
+		'.Net',
 	];
 	const frameworks = ['Laravel', 'Vue.js', 'Nuxt.js'];
 	const databases = ['MySQL', 'PostgreSQL', 'Firebase'];

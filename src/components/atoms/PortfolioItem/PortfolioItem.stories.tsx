@@ -12,9 +12,9 @@ export const PortfolioItemStory = (args: PortfolioItemProps) => (
 PortfolioItemStory.storyName = 'PortfolioItem';
 PortfolioItemStory.args = {
 	item: {
-		slug: 'amvi',
-		title: 'Amamos Vivir Cada Día',
-		link: 'https://www.amvi.org.mx/',
+		slug: 'direct-lab',
+		title: 'Direct Lab',
+		link: 'https://dl.konsultasi.in/',
 		type: 'Web Development',
 		technologies: [
 			'Gatsby',

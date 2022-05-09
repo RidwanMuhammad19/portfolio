@@ -5,23 +5,22 @@ export default (req: NextApiRequest, res: NextApiResponse) => {
 		{
 			company: 'Sandbox Indonesia',
 			website: 'https://www.sandboxindonesia.id/',
-			jobTitle: 'Fullstack Developer',
-			startDate: '2021-05-17',
+			jobTitle: 'Front End Developer',
+			startDate: '2020-03-10',
 			endDate: null,
 			place: 'Bareng Lor, Klaten Utara, Jawa Tengah, Indonesia',
-			description: `* Joined Informa Studios (old name) as a junior backend developer, first with back-end expertise in the fullstack development. (alongside research untill deployment)
-* Develop ACTIONS system for university.
+			description: `* Joined Informa Studios (old name) as a junior frontend developer. (alongside research untill deployment)
+* Develop ACTIONS Landing Page for elementary school.
 * Develop ACTIONS system for elementary school.`,
 			technologies: [
 				'HTML',
-				'CSS',
+				'CSS Bootstrap',
+				'CSS Chakra UI',
+				'CSS Material UI',
 				'javascript',
-				'jQuery',
-				'CMS',
-				'MySQL',
-				'PostgreSQL',
-				'Laravolt',
-				'Laravel',
+				'React Js',
+				'Next Js',
+				'.Net',
 			],
 		},
 		{
@@ -35,7 +34,16 @@ export default (req: NextApiRequest, res: NextApiResponse) => {
 * Tech lead for the rebuild of site applications, used by students, and also for the its own internal use.
 * Lead for education and training for the students.
 * Mentored more junior developers through pair programming, to be the next mentor.`,
-			technologies: ['HTML', 'CSS', 'javascript', 'jQuery', 'MySQL', 'Laravel'],
+			technologies: [
+				'HTML',
+				'CSS Bootstrap',
+				'CSS Chakra UI',
+				'CSS Material UI',
+				'javascript',
+				'React Js',
+				'Next Js',
+				'.Net',
+			],
 		},
 	];
 

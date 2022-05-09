@@ -13,7 +13,7 @@ const Header: FC = () => {
 				<Flex>
 					<h1>
 						<Link href="/">
-							<a>Syofyan Zuhad</a>
+							<a>MUHAMMAD RI</a>
 						</Link>
 					</h1>
 					<Desktop>
