@@ -31,8 +31,8 @@ function Home({ skills }: IProps) {
 				</Headline>
 				<p>
 					I am a passionate Web Developer, specialised in front-end development.
-					As an artisan user React Js, I create amazing web applications
-					to make the internet a better place.
+					As an artisan user React Js, I create amazing web applications to make
+					the internet a better place.
 					<br />
 					You can talk to me about{' '}
 					<Typed
