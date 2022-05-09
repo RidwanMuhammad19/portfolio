@@ -43,10 +43,9 @@ function About({ jobs, education }: IProps) {
 				<p>
 					I am {differenceInCalendarYears(new Date(), new Date('1998-11-15'))}
 					years old and have been a web developer for as long as I can think.
-					The technologies I work with are JavaScript, HTML, CSS and React with a
-					focus on the frameworks. I use code not
-					only to do my day-to-day job, but also to solve everyday problems I
-					come across.
+					The technologies I work with are JavaScript, HTML, CSS and React with
+					a focus on the frameworks. I use code not only to do my day-to-day
+					job, but also to solve everyday problems I come across.
 				</p>
 				<p>
 					When I am not writing code I love to spend time at room in Klaten or

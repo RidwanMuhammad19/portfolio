@@ -3,9 +3,9 @@ import type { NextApiRequest, NextApiResponse } from 'next';
 export default (req: NextApiRequest, res: NextApiResponse) => {
 	const education = [
 		{
-			institute: 'Islamic Institution of Information and Technologies',
-			website: 'https://pondokprogrammer.com/',
-			course: 'Pondok Programmer',
+			institute: 'Waktu Kita',
+			website: 'https://www.waktukita.com/',
+			course: 'React Js',
 			endDate: '2021-06-20',
 			place: 'boarding school',
 			technologies: [

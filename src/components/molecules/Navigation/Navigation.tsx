@@ -22,16 +22,16 @@ const Navigation: FC<NavigationProps> = ({ onClick }) => {
 						<a onClick={onClick}>About</a>
 					</Link>
 				</li>
-				<li>
+				{/* <li>
 					<Link href="/uses">
 						<a onClick={onClick}>Uses</a>
 					</Link>
-				</li>
-				<li>
+				</li> */}
+				{/* <li>
 					<Link href="/blog">
 						<a onClick={onClick}>Blog</a>
 					</Link>
-				</li>
+				</li> */}
 				<li>
 					<Link href="/portfolio">
 						<a onClick={onClick}>Portfolio</a>

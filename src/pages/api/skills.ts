@@ -9,10 +9,10 @@ export default (req: NextApiRequest, res: NextApiResponse) => {
 		'javascript',
 		'React Js',
 		'Next Js',
-		'.Net',
+		'VB.Net',
 	];
-	const frameworks = ['Laravel', 'Vue.js', 'Nuxt.js'];
-	const databases = ['MySQL', 'PostgreSQL', 'Firebase'];
+	const frameworks = ['React Js', 'Next Js'];
+	const databases = null;
 	const cms = ['WordPress', 'Statamic'];
 	const various = ['SEO', 'Scrum', 'Agile', 'Jira', 'Confluence'];
 	const design = ['Canva', 'Gravit', 'Figma'];
@@ -25,19 +25,9 @@ export default (req: NextApiRequest, res: NextApiResponse) => {
 	];
 	const languages = [
 		{
-			language: 'Javanese',
-			level: 'bilingual',
-			icon: '🚩',
-		},
-		{
 			language: 'Indonesian',
 			level: 'bilingual',
 			icon: '🇮🇩',
-		},
-		{
-			language: 'Arabic',
-			level: 'intermediate',
-			icon: '🇸🇦',
 		},
 		{
 			language: 'English',
@@ -49,8 +39,8 @@ export default (req: NextApiRequest, res: NextApiResponse) => {
 	res.status(200).json({
 		technologies,
 		frameworks,
-		databases,
-		cms,
+		// databases,
+		// cms,
 		various,
 		design,
 		softSkills,
