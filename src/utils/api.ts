@@ -13,9 +13,9 @@ export function getSlugs(type: MdxType) {
 	let dir;
 
 	switch (type) {
-		case 'BLOG':
-			dir = join(process.cwd(), blogPostsDirectory);
-			break;
+		// case 'BLOG':
+		// 	dir = join(process.cwd(), blogPostsDirectory);
+		// 	break;
 		case 'PORTFOLIO':
 			dir = join(process.cwd(), portfolioDirectory);
 			break;
@@ -32,9 +32,9 @@ export function getBySlug(type: MdxType, slug: string, fields: string[] = []) {
 	let fullPath = '';
 
 	switch (type) {
-		case 'BLOG':
-			fullPath = join(blogPostsDirectory, `${realSlug}.mdx`);
-			break;
+		// case 'BLOG':
+		// 	fullPath = join(blogPostsDirectory, `${realSlug}.mdx`);
+		// 	break;
 		case 'PORTFOLIO':
 			fullPath = join(portfolioDirectory, `${realSlug}.mdx`);
 			break;

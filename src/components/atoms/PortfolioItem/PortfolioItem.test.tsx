@@ -3,17 +3,11 @@ import { render } from '@testing-library/react';
 
 describe('PortfolioItem', () => {
 	const mockItem = {
-		slug: 'amvi',
-		title: 'Amamos Vivir Cada Día',
+		slug: 'directlab',
+		title: 'Direct Lab',
 		link: 'https://www.amvi.org.mx/',
 		type: 'Web Development',
-		technologies: [
-			'Gatsby',
-			'TypeScript',
-			'Styled-Components',
-			'REST APIs',
-			'GraphQL',
-		],
+		technologies: ['React Js', 'Chakra UI'],
 		content: 'Some text content',
 	};
 

@@ -17,7 +17,7 @@ const PortfolioItem: FC<PortfolioItemProps> = ({ item }) => {
 			<Link href={`/portfolio/${slug}`}>
 				<a>
 					<Image
-						src={`/portfolio/${slug}.jpg`}
+						src={`/portfolio/${slug}.PNG`}
 						width={1920}
 						height={1080}
 						objectFit="cover"
