@@ -19,7 +19,7 @@ export default (req: NextApiRequest, res: NextApiResponse) => {
 			technologies: ['HTML', 'CSS', 'Javascript', 'React Js'],
 		},
 		{
-			institute: 'Bacelor Information System',
+			institute: 'Bachelor Information System',
 			website: 'https://home.amikom.ac.id/',
 			course: 'Universitas Amikom Yogyakarta',
 			endDate: '2019-11-10',
